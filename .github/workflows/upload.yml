@@ -28,6 +28,10 @@ jobs:
       # - name: Install build dependencies
       #   run: mk-build-deps -i -t "apt-get --yes" -r
 
+      - name: Fix script permissions
+        run: |
+          find . -type f -name "*.sh" -exec chmod +x {} \;
+
       - name: Build source package
         run: |
           dpkg-buildpackage -S -us -uc -d
