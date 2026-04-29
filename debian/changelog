@@ -1,3 +1,9 @@
+wlroots (0.19.1.lingmo.1) unstable; urgency=medium
+
+  * new release for Lingmo OS.
+
+ -- Lingmo OS Team <team@lingmo.org>  Wed, 29 Apr 2026 17:05:00 +0800
+
 wlroots (0.19.0-0deepin1) unstable; urgency=medium
 
   * Sync upstream 0.19.0.
